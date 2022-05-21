@@ -12,3 +12,6 @@ To draw a level, start by clicking the "Add new level" button. If you just start
 2. Edit / add your palette of blocks and save as png.
 3. Make that file reachable over www (dropbox maybe), and paste that link when creating a new project.
 4. Type block width in the new project prompt, currently the editor only supports square block.
+
+#### Use it online
+http://olapersson.com/projects/a-tile-map-editor/a-tile-map-editor.html
