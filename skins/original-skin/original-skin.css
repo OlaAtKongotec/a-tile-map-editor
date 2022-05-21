@@ -1,0 +1,313 @@
+.OriginalSkin{
+	margin:0;
+	padding:0;
+	font-family:arial;
+	font-size:13px;
+	overflow:hidden;
+}
+
+.OriginalSkin a{
+	text-decoration:none;
+	color:black;
+}
+
+.OriginalSkin .TileMapEditor{
+	background-color:#eeeeee;
+}
+
+.OriginalSkin .Navigation{
+	overflow:hidden;
+	
+	background: #cacaca; /* for non-css3 browsers */
+
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cacaca', endColorstr='#8f8f8f'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#cacaca), to(#8f8f8f)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #cacaca,  #8f8f8f); /* for firefox 3.6+ */
+	border-color:686868;
+	border-style:solid;
+	border-width:0;
+	border-bottom-width:1px;
+	padding-top:6px;
+	padding-bottom:2px;
+	padding-left:3px;
+}
+
+.OriginalSkin .Menu{
+	display:block;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+	float:left;
+	margin-right:10px;
+
+}
+
+.OriginalSkin .Menu .MenuItem{
+	display:block;
+	float:left;
+	overflow:hidden;
+	margin-bottom:3px;
+}
+
+.OriginalSkin .Button{
+	color:#3e3e3e;
+	border-color:#4d4d4d;
+	background: #f7f7f7; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#bababa'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#bababa)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #f9f9f9,  #bababa); /* for firefox 3.6+ */
+
+	/*background-color:#f5f5f5;*/
+	padding:5px 10px;
+	border-style:solid;
+	border-width:1px;
+	display:block;
+	float:left;
+	margin-left:3px;
+	margin-bottom:2px;
+	
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+	-moz-box-shadow: 0px 1px 0px #d4d4d4;
+	-webkit-box-shadow: 0px 1px 0px #d4d4d4;
+	box-shadow: 0px 1px 0px #d4d4d4;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=0, Direction=135, Color='#d4d4d4')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=0, Direction=135, Color='#d4d4d4');
+	
+	text-shadow: #e9e9e9 0px 1px 0px;
+	
+
+	
+}
+
+.OriginalSkin .CurrentLevel .Button, .OriginalSkin .CurrentLevel .Button:hover{
+	color:white;
+	border-color:#4d4d4d;
+	background: #f7f7f7; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#494949', endColorstr='#696969'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#494949), to(#696969)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #494949,  #696969); /* for firefox 3.6+ */
+
+
+	
+	-moz-box-shadow: 0px 1px 0px #d4d4d4;
+	-webkit-box-shadow: 0px 1px 0px #d4d4d4;
+	box-shadow: 0px 1px 0px #d4d4d4;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=0, Direction=135, Color='#d4d4d4')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=0, Direction=135, Color='#d4d4d4');
+	
+	text-shadow: black 0px 1px 1px;
+	
+
+	
+}
+
+
+.OriginalSkin .Button:hover{
+	color:black;
+	border-color:#626262;
+	background: #f7f7f7; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#a9a9a9'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#a9a9a9)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #f7f7f7,  #a9a9a9); /* for firefox 3.6+ */
+	text-shadow: #e9e9e9 0px 1px 0px;
+}
+.OriginalSkin .Button:active{
+	color:black;
+	border-color:#2a557b;
+	background: #559bd5; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99caee', endColorstr='#559bd5'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#99caee), to(#559bd5)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #99caee,  #559bd5); /* for firefox 3.6+ */	
+	
+	
+	text-shadow: #99caee 0px 1px 0px;
+
+}
+
+.OriginalSkin .MenuLabel{
+
+	padding:6px 5px;
+	display:block;
+	float:left;
+	
+	text-shadow: #cacaca 0px 1px 0px;
+
+}
+
+.OriginalSkin .PromptBox{
+	
+
+	
+	background-color:#ffffff;
+	position:absolute;
+	top:0px;
+	left:0px;
+	padding:20px;
+	margin:10px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#000000');
+	
+}
+
+.OriginalSkin .PromptBox .PromptBoxTitle{
+	padding-bottom:11px;
+	display:block;
+}
+
+
+
+.OriginalSkin .ProjectOrganizer{
+	height:80px;
+	
+	background: #cacaca; /* for non-css3 browsers */
+
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cacaca', endColorstr='#8f8f8f'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#cacaca), to(#8f8f8f)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #cacaca,  #8f8f8f); /* for firefox 3.6+ */
+	
+	border-color:686868;
+	border-style:solid;
+	border-width:0;
+	border-top-width:1px;
+	padding-top:6px;
+	padding-left:3px;
+}
+
+.OriginalSkin .MainView{
+	height:0;
+}
+
+.OriginalSkin .Palette{
+	position:relative;
+	height:100%;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	float:left;
+}
+
+.OriginalSkin .PaletteTiles{
+	position:relative;
+	background-repeat:no-repeat;
+}
+
+.OriginalSkin .Canvas{
+	position:relative;
+	height:100%;
+	overflow:scroll;
+	float:left;
+	background-color:#626262;
+}
+
+.OriginalSkin .LevelContainer{
+	position:relative;
+	background-color:#33b1cc;
+}
+
+.OriginalSkin .LevelTile{
+	float:left;
+}
+
+.OriginalSkin .TileMarker{
+	position:absolute;
+	border-style:solid;
+	border-width:2px;
+	border-color:#00ff00;
+	left:0;
+	top:0;
+}
+
+.OriginalSkin .MouseCatcher{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+}
+
+
+.OriginalSkin .SaveLevelString{
+	max-width:400px;
+	max-height:400px;
+	overflow:auto;
+	border-style:solid;
+	border-width:1px;
+	font-size:12px;
+	padding:10px;
+}
+
+
+
+.OriginalSkin input{
+	margin-left:10px;
+}
+
+.OriginalSkin table{
+	margin-bottom:10px;
+}
+
+.OriginalSkin .StartPopup{
+	position:absolute;
+	top:110px;
+	width:400px;
+	background-color:white;
+	padding:40px;
+	margin:0 0 0 -240px;
+	left:50%;
+	
+	-moz-box-shadow: 1px 1px 4px #000;
+	-webkit-box-shadow: 1px 1px 4px #000;
+	box-shadow: 1px 1px 4px #000;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+	z-index:500;
+}
+
+.OriginalSkin .StartPopup span{
+	display:block;
+	text-align:center;
+}
+
+
+
+.OriginalSkin .StartPopup .CloseButton{
+	z-index:520;
+	position:absolute;
+	top:-33px;
+	left:-33px;
+	background-image:url(images/close-button.png);
+	width:65px;
+	height:65px;
+	cursor:pointer;
+}
+
+.OriginalSkin .StartPopup .CloseButton:hover{
+	background-position:0 -65px;
+	
+}
+
+.OriginalSkin .StartPopup .RegularLink{
+	text-decoration:underline;
+	color:blue;
+}
+
+/*
+009999
+FFCA00
+D8005F
+*/
